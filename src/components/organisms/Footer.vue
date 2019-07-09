@@ -36,7 +36,7 @@
                 <a
                   class="has-text-white"
                   target="_blank"
-                  href="https://github.com/puterakahfi/awesome-js-dev-id"
+                  href="https://github.com/puterakahfi/jsid"
                 >
                   <i class="fab fa-github"></i>
                 </a>

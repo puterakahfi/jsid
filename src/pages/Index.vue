@@ -26,7 +26,7 @@
             ></b-input>
           </b-field>
 
-          <Devs class="has-margin-top-50" :devs="filteredDev" />
+          <Devs class :devs="filteredDev" />
         </div>
       </div>
     </div>
