@@ -1,0 +1,19 @@
+{
+    "name": "ReactJS Indonesia ",
+    "published": true,
+    "description": "",
+    "profile_image": "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
+    "tags": [
+        "reactjs"
+    ],
+    "links": [
+        {
+            "label": "facebook",
+            "url": "https://www.facebook.com/groups/442974152553174/"
+        },
+        {
+            "label": "telegram",
+            "url": "https://t.me/react_id"
+        }
+    ]
+}

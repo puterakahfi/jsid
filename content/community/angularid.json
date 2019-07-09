@@ -1,0 +1,19 @@
+{
+    "name": "Angular Indonesia ",
+    "published": true,
+    "description": "",
+    "profile_image": "https://angular.io/assets/images/logos/angular/angular.png",
+    "tags": [
+        "angular"
+    ],
+    "links": [
+        {
+            "label": "facebook",
+            "url": "https://www.facebook.com/groups/462764390497214/"
+        },
+        {
+            "label": "telegram",
+            "url": "https: //t.me/AngularID"
+        }
+    ]
+}

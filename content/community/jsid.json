@@ -1,0 +1,21 @@
+{
+    "name": "Javascript Indonesia ",
+    "published": true,
+    "description": "",
+    "profile_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/512px-Unofficial_JavaScript_logo_2.svg.png",
+    "tags": [
+        "reactjs",
+        "javascript",
+        "vuejs"
+    ],
+    "links": [
+        {
+            "label": "facebook",
+            "url": "https://www.facebook.com/groups/sencha.indo.admin/"
+        },
+        {
+            "label": "telegram",
+            "url": "https://t.me/js_id"
+        }
+    ]
+}

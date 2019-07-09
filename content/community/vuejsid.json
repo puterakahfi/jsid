@@ -1,0 +1,27 @@
+{
+    "name": "Vuejs Indonesia ",
+    "published": true,
+    "description": "",
+    "profile_image": "https://vuejs.org/images/logo.png",
+    "tags": [
+        "vuejs"
+    ],
+    "links": [
+        {
+            "label": "facebook",
+            "url": "https://www.facebook.com/groups/1675298779418239/"
+        },
+        {
+            "label": "github",
+            "url": "https://github.com/vuejs-id"
+        },
+        {
+            "label": "telegram",
+            "url": "https://web.telegram.org/#/im?p=@vuejsid"
+        },
+        {
+            "label": "Website",
+            "url": "https://vuejs.id/"
+        }
+    ]
+}

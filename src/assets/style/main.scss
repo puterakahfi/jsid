@@ -1,0 +1,14 @@
+// Import Bulma and Buefy styles
+@import "~bulma";
+@import "~buefy/src/scss/buefy";
+@import "utils";
+@import url("https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.min.css");
+
+body {
+}
+
+@media screen and (max-width: 1023px) {
+  .container {
+    padding: 1.5rem;
+  }
+}
