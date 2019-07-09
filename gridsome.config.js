@@ -12,7 +12,7 @@ module.exports = {
     {
       use: "@gridsome/source-filesystem",
       options: {
-        path: "content/awesome-js-dev-id/json/**/*.json",
+        path: "awesome-js-dev-id/json/**/*.json",
         typeName: "Devs",
         remark: {
           // remark options
