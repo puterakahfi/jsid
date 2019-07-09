@@ -5,9 +5,9 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: "JSDEV.ID",
+  siteName: "Javascript Indonesia",
   siteUrl: 'https://puterakahfi.github.io',
-  pathPrefix: '/awesome-js-dev-id',
+  pathPrefix: '/jsid',
   plugins: [
     {
       use: "@gridsome/source-filesystem",
