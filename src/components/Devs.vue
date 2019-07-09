@@ -3,14 +3,12 @@
     <div class="columns is-multiline">
       <div class="column is-6" v-for="dev in devs" :key="dev.id" data-aos="zoom-in">
         <div class="box has-padding-bottom-5 has-equal-height">
-
           <article class="media">
             <div class="media-left">
               <figure class="image is-96x96">
                 <br />
 
-                <g-image class="is-rounded" :src="dev.node.profile_image" width="500"/>
-
+                <g-image class="is-rounded" :src="dev.node.profile_image" width="500" />
               </figure>
             </div>
             <div class="media-content">
@@ -68,7 +66,7 @@ export default {
       if (label == "linkedin") faIcon = "fab fa-linkedin";
       if (label == "twitter") faIcon = "fab fa-twitter";
       if (label == "medium") faIcon = "fab fa-medium";
-
+      if (label == "youtube") faIcon = "fab fa-youtube";
       return faIcon;
     }
   }
