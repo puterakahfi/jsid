@@ -6,7 +6,7 @@
           <div class="control">
             <img
               class="tag has-background-white-bis	"
-              src="https://travis-ci.org/puterakahfi/awesome-js-dev-id.svg?branch=webversion"
+              src="https://travis-ci.org/puterakahfi/jsid.svg?branch=master"
             />
           </div>
 
