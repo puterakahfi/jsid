@@ -1,4 +1,4 @@
 [submodule "awesome-js-dev-id"]
 	path = awesome-js-dev-id
 	url = https://github.com/puterakahfi/awesome-js-dev-id.git
-	branch = master
+	branch = json

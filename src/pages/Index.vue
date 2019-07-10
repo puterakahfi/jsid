@@ -27,6 +27,8 @@
           </b-field>
 
           <Devs class :devs="filteredDev" />
+
+          <p class="title is-6 has-margin-top-10 has-text-grey-light	"> {{$page.devs.edges.length }} developer </p>
         </div>
       </div>
     </div>
