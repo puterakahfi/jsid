@@ -23,17 +23,7 @@
                 <div class="tags are-small"  v-if="dev.node.skills.length > 0" >
                   <span class="tag" v-for="skill in dev.node.skills" :key="skill">{{ skill }}</span>
                 </div>
-                <div class="is-flex">
-                  <div class v-for="link in dev.node.links" :key="link.label">
-                    <b-tooltip :label="link.label" type="is-light">
-                      <a class="button is-white" target="_blank" :href="link.url">
-                        <span class="icon is-small">
-                          <i :class="convertLabelToIcon(link.label)"></i>
-                        </span>
-                      </a>
-                    </b-tooltip>
-                  </div>
-                </div>
+                <IconLinks :links="dev.node.links" />
               </div>
             </div>
           </article>
@@ -45,6 +35,7 @@
 <script>
 import { faGithub, faFacebook } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+import IconLinks from "~/components/molecules/IconLinks";
 
 export default {
   props: ["devs"],
@@ -55,7 +46,8 @@ export default {
     };
   },
   components: {
-    FontAwesomeIcon
+    FontAwesomeIcon,
+    IconLinks
   },
   methods: {
     convertLabelToIcon: function(label) {
@@ -76,7 +68,7 @@ export default {
 <style lang="scss" scoped>
 .box {
   box-shadow: none;
-  border-radius: 5px;
+  border-radius: 10px;
   box-shadow: 0 0 25px rgba(103, 119, 239, 0.1);
   box-shadow: none;
   border: solid 1px #f7f7f7;

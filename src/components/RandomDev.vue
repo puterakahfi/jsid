@@ -2,7 +2,7 @@
   <div class="card random-dev">
     <div class="card-front">
       <span
-        class="tag is-white has-text-grey-light is-small has-margin-top-5 has-margin-left-5"
+        class="tag is-white has-text-grey-light is-small has-margin-top-10 has-margin-left-5"
       >Random pick developer</span>
       <div class="card-image has-padding-35">
         <figure class="image">
@@ -25,6 +25,9 @@
         </div>
 
         <div class="content has-text-grey">{{ selectedDev.description}}</div>
+
+ 
+        <IconLinks :links="selectedDev.links"  :size="medium" />
       </div>
     </div>
   </div>
@@ -56,11 +59,17 @@
 
 
 <script>
+
+import IconLinks from "~/components/molecules/IconLinks";
+
 export default {
   data() {
     return {
       selectedDev: []
     };
+  },
+  components:{
+    IconLinks 
   },
   created() {
     let allDevs = this.$static.randomDev.edges;
@@ -74,6 +83,8 @@ export default {
 
 <style lang="scss" scoped>
 .card {
+  border-radius:10px;
+
   &:hover {
     -webkit-transform: translateY(-4px);
     transform: translateY(-4px);
