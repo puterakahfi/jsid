@@ -20,7 +20,7 @@
 
                 <h3 class="subtitle is-5 has-margin-top-5 has-margin-bottom-10">{{ dev.node.name }}</h3>
                 {{ dev.node.description }}
-                <div class="tags are-small">
+                <div class="tags are-small"  v-if="dev.node.skills.length > 0" >
                   <span class="tag" v-for="skill in dev.node.skills" :key="skill">{{ skill }}</span>
                 </div>
                 <div class="is-flex">

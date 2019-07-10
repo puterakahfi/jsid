@@ -43,6 +43,23 @@
               </span>
             </div>
           </div>
+
+          <div class="control">
+            <div class="tags has-addons">
+              <span class="tag is-dark">found issue?</span>
+              <span class="tag is-danger">
+                <a
+                  class="has-text-white"
+                  target="_blank"
+                  href="https://github.com/puterakahfi/jsid/issues"
+                >
+                  <i class="fas fa-bug"></i>
+                </a>
+              </span>
+            </div>
+          </div>
+
+          
         </div>
         <p>
           <strong>Javascript Indonesia Developer Website Version</strong> by
