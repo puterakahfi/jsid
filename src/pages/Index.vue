@@ -10,7 +10,7 @@
         <div class="has-margin-top-5">
           <h1 class="title is-1 has-margin-top-5">Awesome Javascript Developer Indonesia</h1>
           <h1 class="subtitle is-5 has-text-grey-light has-margin-bottom-20">
-            Daftar developer/programmer javascript terkece asal Indonesia, data developer di ambil dari repository induk
+            Daftar developer/programmer javascript terkece asal Indonesia, data developer diambil dari repository induk
             <a
               target="_blank"
               href="https://github.com/mazipan/awesome-js-dev-id"
