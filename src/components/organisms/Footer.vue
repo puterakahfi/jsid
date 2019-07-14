@@ -5,7 +5,7 @@
         <div class="field is-grouped is-grouped-multiline is-centered">
           <div class="control">
             <img
-              class="tag has-background-white-bis"
+              class="tag has-background-white-bis is-paddingless"
               src="https://travis-ci.org/puterakahfi/jsid.svg?branch=master"
             />
           </div>
@@ -59,21 +59,15 @@
             </div>
           </div>
         </div>
-        <p>
-          <strong>Javascript Indonesia Developer Website Version</strong> by
-          <a href="https://puterakahfi.github.io">Putera Kahfi</a>. The source code is licensed
-          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
-          <br />
-          <br />
 
-          <a href="https://bulma.io">
-            <img
-              src="https://bulma.io/images/made-with-bulma.png"
-              alt="Made with Bulma"
-              width="128"
-              height="24"
-            />
-          </a>
+        <strong>Javascript Indonesia Developer Website Version</strong> by
+        <a href="https://puterakahfi.github.io">Putera Kahfi</a>. The source code is licensed
+        <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
+        <p class="subtitle is-7 has-margin-top-10 has-text-grey">
+          made with
+          <i class="fas fa-heart has-text-danger"></i> with
+          <a href="https://gridsome.org" target="_blank">gridsome</a> and
+          <a href="https://bulma.io/" target="_blank">bulma</a>
         </p>
       </div>
     </footer>
