@@ -27,7 +27,6 @@
           </b-field>
 
           <Devs class :devs="filteredDev" />
-
         </div>
       </div>
     </div>
@@ -65,6 +64,10 @@ import Devs from "~/components/Devs";
 import Footer from "~/components/organisms/Footer";
 import SearchInput from "~/components/molecules/SearchInput";
 export default {
+
+    metaInfo: {
+    title: 'Indonesian javascript developer directory'
+  },
   data() {
     return {
       search: "",
