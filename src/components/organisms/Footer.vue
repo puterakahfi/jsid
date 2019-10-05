@@ -73,3 +73,10 @@
     </footer>
   </div>
 </template>
+
+
+<style scoped>
+.footer {
+  background: transparent;
+}
+</style>
